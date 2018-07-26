@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="80px" viewBox="0 0 88 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>SVG/Central/1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0.00384066295%" y1="49.9819998%" x2="100.003343%" y2="49.9819998%" id="linearGradient-1">
+            <stop stop-color="#E55133" offset="0%"></stop>
+            <stop stop-color="#DF2B61" offset="34%"></stop>
+            <stop stop-color="#DE266B" offset="69%"></stop>
+            <stop stop-color="#D21B81" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="SVG/Central/1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3">
+            <rect id="Rectangle-2" stroke="url(#linearGradient-1)" fill="url(#linearGradient-1)" x="0.5" y="0.5" width="87" height="79" rx="8"></rect>
+            <g id="Icons/wifi/white" transform="translate(24.000000, 20.000000)">
+                <g id="ic_wifi_24px">
+                    <polygon id="Shape" points="0 0 40 0 40 40 0 40"></polygon>
+                    <path d="M1.66666667,15 L5,18.3333333 C13.2833333,10.05 26.7166667,10.05 35,18.3333333 L38.3333333,15 C28.2166667,4.88333333 11.8,4.88333333 1.66666667,15 Z M15,28.3333333 L20,33.3333333 L25,28.3333333 C22.25,25.5666667 17.7666667,25.5666667 15,28.3333333 Z M8.33333333,21.6666667 L11.6666667,25 C16.2666667,20.4 23.7333333,20.4 28.3333333,25 L31.6666667,21.6666667 C25.2333333,15.2333333 14.7833333,15.2333333 8.33333333,21.6666667 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                </g>
+            </g>
+            <g id="Group-2" transform="translate(50.000000, 8.000000)" fill="#FFFFFF">
+                <circle id="Oval" cx="27" cy="3" r="3"></circle>
+                <circle id="Oval-Copy" cx="19" cy="3" r="3"></circle>
+                <circle id="Oval-Copy-2" cx="11" cy="3" r="3"></circle>
+                <circle id="Oval-Copy-3" cx="3" cy="3" r="3"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

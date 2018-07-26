@@ -21,6 +21,7 @@
 </template>
 
 <script>
+
 export default {
   name: 'navbar'
 }
@@ -28,10 +29,11 @@ export default {
 
 <style lang="css" scoped>
 .md-toolbar {
-  background-color: green;
+  background-color: transparent;
   height: 112px;
   padding-right: 132px;
   padding-left: 132px;
+  position: absolute;
 }
 
 .toolbar-logo {

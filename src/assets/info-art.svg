@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="360px" height="796px" viewBox="0 0 360 796" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Art</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0.00384066295%" y1="49.9819998%" x2="100.003343%" y2="49.9819998%" id="linearGradient-1">
+            <stop stop-color="#E55133" offset="0%"></stop>
+            <stop stop-color="#DF2B61" offset="34%"></stop>
+            <stop stop-color="#DE266B" offset="69%"></stop>
+            <stop stop-color="#D21B81" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="New-Mobile" transform="translate(0.000000, -2312.000000)">
+            <g id="Steppers[]" transform="translate(0.000000, 712.000000)">
+                <g id="2" transform="translate(0.000000, 1318.000000)">
+                    <g id="Art" transform="translate(0.000000, 282.000000)">
+                        <g id="Fridge" transform="translate(10.000000, 337.000000)">
+                            <g id="Door-2" transform="translate(10.000000, 135.405382)">
+                                <rect id="Rectangle-2" fill-opacity="0.0822860054" fill="#000000" x="0" y="0" width="217.410811" height="322.643266" rx="8"></rect>
+                                <rect id="Rectangle-3" fill="#D8D8D8" x="15.9567568" y="117.505881" width="9.97297297" height="87.6315045" rx="4.98648649"></rect>
+                            </g>
+                            <g id="Group-3">
+                                <g id="SVG/Signal/2" stroke="#000000" stroke-opacity="0.16">
+                                    <g id="Background">
+                                        <circle id="Oval-2" cx="170" cy="170" r="170"></circle>
+                                        <circle id="Oval-2" cx="170" cy="170" r="125"></circle>
+                                        <circle id="Oval-2" cx="170" cy="170" r="77"></circle>
+                                    </g>
+                                </g>
+                                <g id="SVG/Beacon/3" transform="translate(150.000000, 149.000000)" fill="url(#linearGradient-1)">
+                                    <path d="M20,40 C8.954305,40 0,31.045695 0,20 C0,8.954305 8.954305,0 20,0 C31.045695,0 40,8.954305 40,20 C40,31.045695 31.045695,40 20,40 Z M29.7777778,11.5555556 C30.7596173,11.5555556 31.5555556,10.7596173 31.5555556,9.77777778 C31.5555556,8.79593822 30.7596173,8 29.7777778,8 C28.7959382,8 28,8.79593822 28,9.77777778 C28,10.7596173 28.7959382,11.5555556 29.7777778,11.5555556 Z M24.2296296,16.8222222 L20,12.5925926 L19.2592593,12.5925926 L19.2592593,18.2148148 L15.8592593,14.8148148 L14.8148148,15.8592593 L18.9555556,20 L14.8148148,24.1407407 L15.8592593,25.1851852 L19.2592593,21.7851852 L19.2592593,27.4074074 L20,27.4074074 L24.2296296,23.1777778 L21.0444444,20 L24.2296296,16.8222222 Z M20.7407407,15.4296296 L22.1333333,16.8222222 L20.7407407,18.2148148 L20.7407407,15.4296296 Z M22.1333333,23.1777778 L20.7407407,24.5703704 L20.7407407,21.7851852 L22.1333333,23.1777778 Z" id="Combined-Shape"></path>
+                                </g>
+                                <text id="sensor-de-temperatur" font-family="TitilliumWeb-Regular, Titillium Web" font-size="20" font-weight="normal" fill="#000000" fill-opacity="0.797073143">
+                                    <tspan x="73.3" y="221">sensor de temperatura</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <path d="M273.5,693.5 L237.5,693.5" id="Line-2" stroke-opacity="0.797073143" stroke="#000000" stroke-width="2" stroke-linecap="square"></path>
+                        <g id="Tomada" transform="translate(211.000000, 621.000000)">
+                            <g id="Group-7" transform="translate(57.384615, 56.967033)">
+                                <rect id="Background" stroke-opacity="0.16" stroke="#000000" fill="#F8F8F8" x="0" y="0" width="31.8525346" height="56" rx="4"></rect>
+                                <g id="SVG/Energy" transform="translate(8.000000, 34.000000)" fill="#000000" fill-opacity="0.797073143">
+                                    <g id="Group-2">
+                                        <g id="Group">
+                                            <path d="M12.4423963,1.26756439 C12.735214,1.09739429 13.0751796,1 13.437788,1 C14.5372673,1 15.4285714,1.8954305 15.4285714,3 C15.4285714,4.1045695 14.5372673,5 13.437788,5 C13.0751796,5 12.735214,4.90260571 12.4423963,4.73243561 L12.4423963,6 L10.9493088,6 L10.9493088,0 L12.4423963,0 L12.4423963,1.26756439 Z" id="Shape-Copy"></path>
+                                            <path d="M3.88202774,4.3229122 C3.51724433,4.73812256 2.9835337,5 2.38894019,5 C1.28946087,5 0.398156777,4.1045695 0.398156777,3 C0.398156777,1.8954305 1.28946087,1 2.38894019,1 C2.9835337,1 3.51724433,1.26187744 3.88202774,1.6770878 L3.88202774,0 L5.3751153,0 L5.3751153,6 L3.88202774,6 L3.88202774,4.3229122 Z" id="Shape"></path>
+                                        </g>
+                                        <path d="M7.96313364,8 L7.96313364,8 C9.06261296,8 9.95391705,8.89130409 9.95391705,9.99078341 L9.95391705,12 L5.97235023,12 L5.97235023,9.99078341 C5.97235023,8.89130409 6.86365432,8 7.96313364,8 Z" id="Rectangle-3"></path>
+                                    </g>
+                                </g>
+                                <g id="SVG/Energy" transform="translate(4.000000, 4.000000)">
+                                    <rect id="Background" fill="url(#linearGradient-1)" x="0" y="0" width="24" height="24" rx="4"></rect>
+                                    <g id="Group-2" stroke-width="1" transform="translate(4.000000, 6.000000)" fill="#FFFFFF">
+                                        <g id="Group">
+                                            <path d="M12.5,1.26756439 C12.7941734,1.09739429 13.1357129,1 13.5,1 C14.6045695,1 15.5,1.8954305 15.5,3 C15.5,4.1045695 14.6045695,5 13.5,5 C13.1357129,5 12.7941734,4.90260571 12.5,4.73243561 L12.5,6 L11,6 L11,0 L12.5,0 L12.5,1.26756439 Z" id="Shape-Copy"></path>
+                                            <path d="M3.9000001,4.3229122 C3.53352787,4.73812256 2.99734636,5 2.4000001,5 C1.2954306,5 0.400000095,4.1045695 0.400000095,3 C0.400000095,1.8954305 1.2954306,1 2.4000001,1 C2.99734636,1 3.53352787,1.26187744 3.9000001,1.6770878 L3.9000001,0 L5.4000001,0 L5.4000001,6 L3.9000001,6 L3.9000001,4.3229122 Z" id="Shape"></path>
+                                        </g>
+                                        <path d="M8,8 L8,8 C9.1045695,8 10,8.8954305 10,10 L10,12 L6,12 L6,10 C6,8.8954305 6.8954305,8 8,8 Z" id="Rectangle-3"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <polyline id="line" stroke-opacity="0.797073143" stroke="#000000" stroke-width="2" stroke-linecap="square" points="180 280.5 180 230.75 106 230.75 106 181"></polyline>
+                        <g id="Central" transform="translate(151.000000, 280.000000)">
+                            <text id="central" font-family="TitilliumWeb-Regular, Titillium Web" font-size="20" font-weight="normal" fill="#000000" fill-opacity="0.797073143">
+                                <tspan x="0.02" y="73">central</tspan>
+                            </text>
+                            <g id="SVG/Central/1" transform="translate(2.000000, 0.000000)">
+                                <g id="Group-3">
+                                    <rect id="Rectangle-2" stroke="url(#linearGradient-1)" fill="url(#linearGradient-1)" x="0.5" y="0.5" width="54" height="49" rx="8"></rect>
+                                    <g id="Icons/wifi/white" transform="translate(15.000000, 12.500000)">
+                                        <g id="ic_wifi_24px">
+                                            <polygon id="Shape" points="0 0 25 0 25 25 0 25"></polygon>
+                                            <path d="M1.04166667,9.375 L3.125,11.4583333 C8.30208333,6.28125 16.6979167,6.28125 21.875,11.4583333 L23.9583333,9.375 C17.6354167,3.05208333 7.375,3.05208333 1.04166667,9.375 Z M9.375,17.7083333 L12.5,20.8333333 L15.625,17.7083333 C13.90625,15.9791667 11.1041667,15.9791667 9.375,17.7083333 Z M5.20833333,13.5416667 L7.29166667,15.625 C10.1666667,12.75 14.8333333,12.75 17.7083333,15.625 L19.7916667,13.5416667 C15.7708333,9.52083333 9.23958333,9.52083333 5.20833333,13.5416667 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                                        </g>
+                                    </g>
+                                    <g id="Group-2" transform="translate(31.250000, 5.000000)" fill="#FFFFFF">
+                                        <circle id="Oval" cx="16.875" cy="1.875" r="1.875"></circle>
+                                        <circle id="Oval-Copy" cx="11.875" cy="1.875" r="1.875"></circle>
+                                        <circle id="Oval-Copy-2" cx="6.875" cy="1.875" r="1.875"></circle>
+                                        <circle id="Oval-Copy-3" cx="1.875" cy="1.875" r="1.875"></circle>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="Clouds" fill="#000000">
+                            <g id="SVG/Cloud/2" transform="translate(199.000000, 0.000000)" fill-opacity="0.0822860054">
+                                <path d="M124.914248,40.8853306 C115.745616,17.0003007 92.1553939,0 64.5,0 C28.8776336,0 0,28.2060608 0,63 C0,97.7939392 28.8776336,126 64.5,126 L145.5,126 C170.628956,126 191,105.852814 191,81 C191,56.1471863 170.628956,36 145.5,36 C138.087339,36 131.088693,37.7531285 124.904826,40.8630252" id="Path"></path>
+                            </g>
+                            <g id="SVG/Cloud/1" transform="translate(0.000000, 64.000000)" fill-opacity="0.0822860054">
+                                <path d="M35.5,47 C15.8938914,47 0,62.6700338 0,82 C0,101.329966 15.8938914,117 35.5,117 L162.5,117 C185.972102,117 205,98.1959595 205,75 C205,51.8040405 185.972102,33 162.5,33 C160.586739,33 158.703006,33.1249383 156.8567,33.3670096 C147.529507,13.6202185 126.896124,0 103,0 C73.542538,0 49.0432107,20.6975911 43.9655033,47.9908755 C41.2615711,47.3399653 38.4152979,47 35.5,47 Z" id="Path"></path>
+                            </g>
+                            <text id="internet" font-family="TitilliumWeb-Regular, Titillium Web" font-size="20" font-weight="normal" fill-opacity="0.797073143">
+                                <tspan x="69.05" y="152">internet</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
