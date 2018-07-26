@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="20px" viewBox="0 0 30 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>brazil</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="brazil" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g fill-rule="nonzero" id="Shape">
+            <polygon fill="#4CAF50" points="0 0 29.3333333 0 29.3333333 20 0 20"></polygon>
+            <polygon fill="#FFEB3B" points="26.6666667 10 14.6666667 18 2.66666667 10 14.6666667 2"></polygon>
+            <path d="M19.3333333,10 C19.3333333,12.5781253 17.244792,14.6666667 14.6666667,14.6666667 C12.088542,14.6666667 10,12.5781253 10,10 C10,7.42187533 12.088542,5.33333333 14.6666667,5.33333333 C17.244792,5.33333333 19.3333333,7.42187533 19.3333333,10 Z" fill="#3F51B5"></path>
+            <path d="M10.5364587,7.83072933 C10.309896,8.26041667 10.153646,8.72916667 10.0703127,9.22395867 C11.5729167,9.03906267 15.65625,8.84895867 19.09375,11.4739587 C19.247396,11.0104167 19.3333333,10.5156253 19.3333333,10 C19.3333333,10 19.3333333,9.997396 19.3333333,9.994792 C16.0390627,7.76302067 12.4375,7.67447933 10.5364587,7.83072933 Z" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

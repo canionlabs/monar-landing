@@ -1,49 +1,70 @@
 <template>
   <div>
-    <h2>xx</h2>
+      <md-toolbar class="md-accent" md-elevation="0">
+        <div class="md-toolbar-section-start">
+          <img class="toolbar-logo" src="@/assets/logo/white.svg">
+        </div>
+        <div class="md-toolbar-section-end">
+          <a href="#" class="md-primary toolbar-item">INÍCIO</a>
+          <a href="#" class="md-primary toolbar-item">COMO FUNCIONAMOS</a>
+          <a href="#" class="md-primary toolbar-item">CONTATO</a>
+          <!-- <a class="md-primary toolbar-item link-disable">
+            LINGUAGEM: 
+          </a> -->
+          <div class="toolbar-item">
+            <a href="#"><span><img class="flag" src="@/assets/flags/brazil.svg"></span></a>
+            <a href="#"><span><img class="flag" src="@/assets/flags/eua.svg"></span></a>
+          </div>
+        </div>
+      </md-toolbar>
   </div>
 </template>
 
 <script>
-
 export default {
   name: 'navbar'
 }
 </script>
 
 <style lang="css" scoped>
-/*  .vs-topbar {
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-  }
+.md-toolbar {
+  background-color: green;
+  height: 112px;
+  padding-right: 132px;
+  padding-left: 132px;
+}
 
-  .nav {
-    padding-right: 15px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    position: fixed;
-    z-index: 9999;
-    background: #00000080 !important;
+.toolbar-logo {
+  width: 154.2px;
+}
 
-    #logo {
-      width: 180px;
-    }
-  }
-  .brand {
-    margin-left: 30px;
-    margin-right: auto;
-  }
-  .menu-item {
-    display: inline-block;
-    margin-right: 15px;
-    margin-left: 15px;
+.md-primary {
+  font-size: 18px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
 
-    a {
-      color: #fcfcfc;
-      font-weight: 500;
-    }
-    :hover {
-      color: #A7EE55;
-    }
-  }*/
+.toolbar-item {
+  min-width: 0px;
+  margin: 0px;
+  margin-left: 8px !important;
+  margin-right: 8px !important;
+}
+
+.toolbar-item:last-child {
+  margin-left: 8px !important;
+}
+
+.toolbar-item:hover {
+ min-width: 0px;
+ margin: 0px;
+}
+
+.link-disable {
+  text-decoration: none !important;
+}
+
+.flag:last-child {
+  margin-left: 5px;
+}
 </style>

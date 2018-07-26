@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="20px" viewBox="0 0 30 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>eua</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="eua" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g fill-rule="nonzero" id="Shape">
+            <polygon fill="#ECEFF1" points="0.65104183 0 29.4092118 0 29.4092118 20 0.65104183 20"></polygon>
+            <polygon fill="#F44336" points="0.653594771 0 29.4117647 0 29.4117647 2.22222222 0.653594771 2.22222222"></polygon>
+            <polygon fill="#F44336" points="0.653594771 4.44444444 29.4117647 4.44444444 29.4117647 6.66666667 0.653594771 6.66666667"></polygon>
+            <polygon fill="#F44336" points="0.653594771 8.88888889 29.4117647 8.88888889 29.4117647 11.1111111 0.653594771 11.1111111"></polygon>
+            <polygon fill="#F44336" points="0.653594771 13.3333333 29.4117647 13.3333333 29.4117647 15.5555556 0.653594771 15.5555556"></polygon>
+            <polygon fill="#F44336" points="0.653594771 17.7777778 29.4117647 17.7777778 29.4117647 20 0.653594771 20"></polygon>
+            <polygon fill="#3F51B5" points="0.653594771 0 14.379085 0 14.379085 11.1111111 0.653594771 11.1111111"></polygon>
+        </g>
+    </g>
+</svg>
