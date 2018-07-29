@@ -30,12 +30,27 @@
         </div>
       </div>
     </div>
-    <div class="section" id="infographic">
+    <div class="section small-pad" id="infographic">
       <h1 class="section-title">Instalação rapida e simples</h1>
       <p class="little-description">
         Tão simples que você mesmo instala os sensores plug and play de temperatura e de energia e nosso gateway nos locais que deseja.
       </p>
-      <img class="infographic-image" src="@/assets/info-art.svg">
+    </div>
+    <div class="section" id="extra-info">
+      <h1 class="section-title">Informado em qualquer lugar</h1>
+      <p class="little-description">
+        Usando a nossa plataforma web você acompanha a temperatura e a energia de todos os seus estabelecimentos em tempo real. Ainda é possivel configurar envio de alertas via: SMS, telegram e Whatsapp.
+      </p>
+      <img class="screens" src="@/assets/screen.png">
+    </div>
+    <div class="section small-pad" id="seed-accelerators">
+      <h1 class="section-title">Aceleradoras</h1>
+      <img class="screens" src="@/assets/fapepi.png">
+      <h1 class="section-title small-pad">Clientes</h1>
+      <img class="screens" src="@/assets/fapepi.png">
+    </div>
+    <div class="section" id="contact">
+      
     </div>
   </div>
 </template>
@@ -52,12 +67,23 @@ export default {
 </script>
 
 <style lang='css'>
+.screens {
+  padding-top: 60px;
+}
+
+#infographic {
+  background: url("../../assets/art.png") center 80% no-repeat;
+}
+
+.small-pad {
+  padding-top: 40px !important;
+}
 
 .section {
   padding-top: 80px;
   height: 100vh;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 7%;
+  padding-right: 7%;
 }
 
 .section-title {
@@ -86,11 +112,11 @@ export default {
   color: rgba(0,0,0,0.80); 
 }
 
-.infographic-image {
+/*.infographic-image {
   width: 1024px !important;
   height: 583px !important;
 }
-
+*/
 .info-row {
   margin-top: 50px;
 }

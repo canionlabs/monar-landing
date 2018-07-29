@@ -6,7 +6,7 @@
         </div>
         <div class="md-toolbar-section-end">
           <a href="#" class="md-primary toolbar-item">INÍCIO</a>
-          <a href="#" class="md-primary toolbar-item">COMO FUNCIONAMOS</a>
+          <a href="#how-works" class="md-primary toolbar-item">COMO FUNCIONAMOS</a>
           <a href="#" class="md-primary toolbar-item">CONTATO</a>
           <!-- <a class="md-primary toolbar-item link-disable">
             LINGUAGEM: 

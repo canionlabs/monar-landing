@@ -2,7 +2,7 @@
   <div class="layout">
     <navbar></navbar>
     <router-view></router-view>
-    <div class="footer">
+    <div class="footer" style="background-color: grey;">
       ©2018. Todos os direitos reservados.&nbsp;<a href="http://canionlabs.io" target="_blank">CanionLabs </a>
     </div>
   </div>
