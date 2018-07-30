@@ -49,8 +49,35 @@
       <h1 class="section-title small-pad">Clientes</h1>
       <img class="screens" src="@/assets/fapepi.png">
     </div>
-    <div class="section" id="contact">
-      
+    <div class="section small-pad" id="contact">
+      <img class="background-monar" src="@/assets/logo/monar.svg">
+      <h1 class="section-title">Adquira agora seu MONAR</h1>
+      <p class="little-description">
+        Gostou do nosso produto e que saber o orçamento para o seu estabelecimento. Agende agora com um dos nossos representantes.
+        <div>
+        <div class="form-box">
+          <md-field>
+            <label>Qual o seu nome?</label>
+            <md-input v-model="name"></md-input>
+          </md-field>
+          <md-field>
+            <label>Qual o nome da sua empresa?</label>
+            <md-input v-model="company"></md-input>
+          </md-field>
+          <md-field>
+            <label>E-mail para contato</label>
+            <md-input v-model="email"></md-input>
+          </md-field>
+          <md-field>
+            <label>Telefone(Opcional)</label>
+            <md-input v-model="phone"></md-input>
+          </md-field>
+          <div>
+            <md-button class="form-button">Agendar</md-button>
+          </div>
+        </div>
+        </div>
+      </p>
     </div>
   </div>
 </template>
@@ -109,7 +136,7 @@ export default {
   font-family: 'Titillium Web', sans-serif;
   letter-spacing: 0px;
   line-height: 36px;
-  color: rgba(0,0,0,0.80); 
+  /*color: rgba(0,0,0,0.80); */
 }
 
 /*.infographic-image {
@@ -139,6 +166,44 @@ export default {
   font-size: 18px;
   line-height: 27px;
   font-family: 'Titillium Web', sans-serif;
-
 }
+
+.form-box {
+  padding-top: 20px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.md-field {
+  background: rgba(0,0,0,0.08);
+  padding-left: 20px;
+  margin-top: 24px;
+}
+
+.md-field label {
+  left: auto !important;
+  font-size: 24px;
+  top: auto;
+}
+
+#contact {
+  background-image: linear-gradient(90deg, #E55133 0%, #DF2B61 34%, rgba(151,20,127,0.88) 70%, rgba(175,24,129,0.72) 100%);
+  color: #FFFFFF !important;
+}
+
+.background-monar {
+  position: absolute;
+  left: 130px;
+  bottom: 160px;
+}
+
+.form-button {
+  text-transform: uppercase;
+  background-color: #FFFFFF;
+  color: #F0166D;
+  font-size: 24px;
+  font-weight: 500;
+  width: 100%;
+}
+
 </style>
