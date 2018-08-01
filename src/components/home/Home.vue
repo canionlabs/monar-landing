@@ -93,7 +93,7 @@ export default {
 }
 </script>
 
-<style lang='css'>
+<style lang='scss'>
 .screens {
   padding-top: 60px;
 }
@@ -183,7 +183,7 @@ export default {
 
 .md-field label {
   left: auto !important;
-  font-size: 24px;
+  font-size: 24px !important;
   top: auto;
 }
 
@@ -199,11 +199,11 @@ export default {
 }
 
 .form-button {
-  text-transform: uppercase;
-  background-color: #FFFFFF;
+  text-transform: uppercase !important;
+  background-color: #FFFFFF !important;
   color: #F0166D;
-  font-size: 24px;
-  font-weight: 500;
+  font-size: 24px !important;
+  font-weight: 500 !important;
   width: 100%;
 }
 
