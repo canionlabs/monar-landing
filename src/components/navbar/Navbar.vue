@@ -4,14 +4,19 @@
         <div class="md-toolbar-section-start">
           <img class="toolbar-logo" src="@/assets/logo/white.svg">
         </div>
-        <div class="md-toolbar-section-end">
-          <a href="#" class="md-primary toolbar-item">INÍCIO</a>
-          <a href="#how-works" class="md-primary toolbar-item">COMO FUNCIONAMOS</a>
-          <a href="#" class="md-primary toolbar-item">CONTATO</a>
-          <!-- <a class="md-primary toolbar-item link-disable">
-            LINGUAGEM: 
-          </a> -->
-          <div class="toolbar-item">
+        <div class="md-toolbar-section-end md-layout">
+          <!-- <md-menu class="" md-size="medium" :md-offset-x="127" :md-offset-y="-36">
+            <md-button md-menu-trigger>Custom Offset</md-button>
+            <md-menu-content>
+              <md-menu-item>My Item 1</md-menu-item>
+              <md-menu-item>My Item 2</md-menu-item>
+              <md-menu-item>My Item 3</md-menu-item>
+            </md-menu-content>
+          </md-menu> -->
+          <a href="#" class="md-primary toolbar-item md-small-hide">INÍCIO</a>
+          <a href="#how-works" class="md-primary toolbar-item md-small-hide">COMO FUNCIONAMOS</a>
+          <a href="#" class="md-primary toolbar-item md-small-hide">CONTATO</a>
+          <div class="toolbar-item md-small-hide">
             <a href="#"><span><img class="flag" src="@/assets/flags/brazil.svg"></span></a>
             <a href="#"><span><img class="flag" src="@/assets/flags/eua.svg"></span></a>
           </div>
@@ -69,4 +74,14 @@ export default {
 .flag:last-child {
   margin-left: 5px;
 }
+
+@media only screen and (max-width: 768px) {
+  .md-toolbar {
+    padding-right: 0;
+  }
+  .toolbar-logo {
+    margin: 0;
+  }
+}
+
 </style>

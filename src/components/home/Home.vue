@@ -1,27 +1,27 @@
 <template>
   <div>
     <presentation></presentation>
-    <div class="section" id="how-works">
+    <div class="section large-section" id="how-works">
       <h1 class="section-title">Como funcionamos</h1>
       <p class="big-description">
         Possuimos uma plataforma inteligente que monitora produtos sensíveis a temperatura armazenados em câmaras frias.
       </p>
       <div class="info-row md-layout md-gutter md-alignment-top">
-        <div class="info-card md-layout-item md-medium-size-33">
+        <div class="info-card md-layout-item md-medium-size-33 md-small-size-100">
           <img class="info-icon" src="@/assets/icons/beacon.svg">
           <h2 class="info-title">Sensor de temperatura</h2>
           <span class="info-text">
             Visualização remota e em tempo real da temperatura dos refrigeradores da sua empresa. Ele possui uma conexão bluetooth e uma bateria própria.
           </span>
         </div>
-        <div class="info-card md-layout-item md-medium-size-33">
+        <div class="info-card md-layout-item md-medium-size-33 md-small-size-100">
           <img class="info-icon" src="@/assets/icons/gateway.svg">
           <h2 class="info-title">Gateway IoT</h2>
           <span class="info-text">
             É responsavel em conectar todos os sensores. Ela possui bateria, conexão 3g e armazenamento local. Os dados são salvos e sincronizados quanto há conexão.  Desse modo mesmo sem energia no seu estabelecimento ela continuará monitorando.
           </span>
         </div>
-        <div class="info-card md-layout-item md-medium-size-33">
+        <div class="info-card md-layout-item md-medium-size-33 md-small-size-100">
           <img class="info-icon" src="@/assets/icons/dashboard.svg">
           <h2 class="info-title">Sensor de temperatura</h2>
           <span class="info-text">
@@ -30,24 +30,24 @@
         </div>
       </div>
     </div>
-    <div class="section small-pad" id="infographic">
+    <div class="section small-pad large-section" id="infographic">
       <h1 class="section-title">Instalação rapida e simples</h1>
       <p class="little-description">
         Tão simples que você mesmo instala os sensores plug and play de temperatura e de energia e nosso gateway nos locais que deseja.
       </p>
     </div>
-    <div class="section" id="extra-info">
+    <div class="section large-section" id="extra-info">
       <h1 class="section-title">Informado em qualquer lugar</h1>
       <p class="little-description">
         Usando a nossa plataforma web você acompanha a temperatura e a energia de todos os seus estabelecimentos em tempo real. Ainda é possivel configurar envio de alertas via: SMS, telegram e Whatsapp.
       </p>
-      <img class="screens" src="@/assets/screen.png">
+      <img class="screens md-xsmall-hide" src="@/assets/screen.png">
     </div>
     <div class="section small-pad" id="seed-accelerators">
       <h1 class="section-title">Aceleradoras</h1>
-      <img class="screens" src="@/assets/fapepi.png">
+      <img class="screens img-row" src="@/assets/fapepi.png">
       <h1 class="section-title small-pad">Clientes</h1>
-      <img class="screens" src="@/assets/fapepi.png">
+      <img class="screens img-row" src="@/assets/fapepi.png">
     </div>
     <div class="section small-pad" id="contact">
       <img class="background-monar" src="@/assets/logo/monar.svg">
@@ -117,6 +117,7 @@ export default {
   text-transform: uppercase;
   font-size: 40px;
   font-weight: 700;
+  line-height: 51px;
 }
 
 .big-description {
@@ -204,6 +205,49 @@ export default {
   font-size: 24px;
   font-weight: 500;
   width: 100%;
+}
+
+
+@media only screen and (max-width: 768px) {
+  /* General
+  ------------ */
+  .section {
+    padding-top: 4px !important;
+    height: 100%;
+  }
+  .section-title {
+    font-size: 38px;
+    line-height: 38px;
+  }
+
+  /* How-it-works
+  ------------ */
+  .info-card {
+    margin-top: 20px;
+  }
+  #infographic {
+    background: none;
+  }
+
+  /* Contact 
+  ------------ */
+  .background-monar {
+    width: 190px;
+    left: 50px;
+    bottom: 490px;
+  }
+  .form-box {
+    padding-top: 0px;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+  .md-field label {
+    font-size: 18px;
+  }
+  .info-text {
+    font-size: 18px;
+    line-height: 21px;
+  }
 }
 
 </style>
