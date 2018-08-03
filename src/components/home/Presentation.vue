@@ -1,8 +1,8 @@
 <template>
   <div class="presentation">
     <div class="detail-box">
-      <h1 class="big-detail">Monitoramento de temperatura</h1>
-      <h3 class="little-detail">Plataforma para produtos sensíveis a temperatura</h3>
+      <h1 class="big-detail">Evite perdas e reduza custos</h1>
+      <h3 class="little-detail">Plataforma de monitoramento de temperatura, umidade e energia elétrica.</h3>
     </div>
   </div>
 </template>
