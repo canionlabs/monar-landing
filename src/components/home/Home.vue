@@ -43,10 +43,12 @@
       </p>
       <img class="screens md-xsmall-hide" src="@/assets/screen.png">
     </div>
-    <div class="section small-pad" id="seed-accelerators">
+    <div class="fit-section" id="seed-accelerators">
       <h1 class="section-title">Aceleradoras</h1>
-      <img class="screens img-row" src="@/assets/fapepi.png">
-      <img class="screens img-row" src="@/assets/sebrae.png">
+      <div class="img-row">
+        <img class="screens seed-img" src="@/assets/fapepi.png">
+        <img class="screens seed-img" id="sebrae-logo" src="@/assets/sebrae.png">
+      </div>
 <!--       <h1 class="section-title small-pad">Clientes</h1>
       <img class="screens img-row" src="@/assets/fapepi.png"> -->
     </div>
@@ -120,6 +122,25 @@ export default {
   height: 100vh;
   padding-left: 7%;
   padding-right: 7%;
+}
+
+.fit-section {
+  padding-top: 40px;
+  margin-bottom: 80px;
+  height: 100%;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+.img-row {
+  .seed-img {
+    width: 240px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  #sebrae-logo {
+    width: 140px;
+  }
 }
 
 .section-title {
@@ -223,10 +244,17 @@ export default {
   .section {
     padding-top: 4px !important;
     height: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
   }
   .section-title {
-    font-size: 38px;
-    line-height: 38px;
+    font-size: 32px;
+    line-height: 32px;
+  }
+
+  .big-description {
+    font-size: 24px;
+    line-height: 32px;
   }
 
   /* How-it-works
@@ -249,9 +277,19 @@ export default {
     padding-top: 0px;
     padding-left: 0%;
     padding-right: 0%;
+
+    .form-button {
+      text-transform: uppercase !important;
+      background-color: #FFFFFF !important;
+      color: #F0166D;
+      font-size: 24px !important;
+      font-weight: 500 !important;
+      width: 90%;
+      margin-left: 0;
+    }
   }
   .md-field label {
-    font-size: 18px;
+    font-size: 18px !important;
   }
   .info-text {
     font-size: 18px;

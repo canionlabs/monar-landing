@@ -77,10 +77,10 @@ export default {
 
 @media only screen and (max-width: 768px) {
   .md-toolbar {
-    padding-right: 0;
+    padding-left: 25px;
   }
   .toolbar-logo {
-    margin: 0;
+    width: 150px;
   }
 }
 

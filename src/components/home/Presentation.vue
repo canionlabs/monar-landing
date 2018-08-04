@@ -44,10 +44,13 @@ export default {
 
 @media only screen and (max-width: 768px) {
   .presentation {
+    height: 100%;
     background-image: linear-gradient(90deg, #E55133 0%, #DF2B61 34%, rgba(151,20,127,0.88) 70%, rgba(175,24,129,0.72) 100%), url('../../assets/background-desktop.png') 100% 100%;
 
     .detail-box {
+      padding-top: 220px;
       padding-left: 20px;
+      margin-bottom: 80px;
     }
     .big-detail {
       font-size: 48px;

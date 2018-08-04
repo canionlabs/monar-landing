@@ -66,4 +66,11 @@ export default {
   color: #FFFFFF;
 }
 
+@media only screen and (max-width: 768px) {
+  .footer-item {
+    font-size: 14px;
+    margin-right: 6px;
+    margin-left: 6px;
+  }
+}
 </style>
