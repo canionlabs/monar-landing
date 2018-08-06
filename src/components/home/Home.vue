@@ -49,57 +49,20 @@
         <img class="screens seed-img" src="@/assets/fapepi.png">
         <img class="screens seed-img" id="sebrae-logo" src="@/assets/sebrae.png">
       </div>
-<!--       <h1 class="section-title small-pad">Clientes</h1>
-      <img class="screens img-row" src="@/assets/fapepi.png"> -->
     </div>
-    <div class="section small-pad" id="contact">
-      <img class="background-monar" src="@/assets/logo/monar.svg">
-      <h1 class="section-title">Garanta a qualidade de seus produtos</h1>
-      <p class="little-description">
-        Esteja com as normas dos orgãos regulatórias e evite prejuízos.
-        <div>
-        <div class="form-box">
-          <md-field>
-            <label>Qual o seu nome?</label>
-            <md-input v-model="name"></md-input>
-          </md-field>
-          <md-field>
-            <label>Cargo</label>
-            <md-input v-model="name"></md-input>
-          </md-field>
-          <md-field>
-            <label>Qual o nome da sua empresa?</label>
-            <md-input v-model="company"></md-input>
-          </md-field>
-          <md-field>
-            <label>E-mail para contato</label>
-            <md-input v-model="email"></md-input>
-          </md-field>
-          <md-field>
-            <label>Telefone</label>
-            <md-input v-model="phone"></md-input>
-          </md-field>
-          <md-field>
-            <label>Pontos de monitoramento</label>
-            <md-input v-model="phone"></md-input>
-          </md-field>
-          <div>
-            <md-button class="form-button">Evite perdas agora</md-button>
-          </div>
-        </div>
-        </div>
-      </p>
-    </div>
+    <contact></contact>
   </div>
 </template>
 
 <script>
 import Presentation from './Presentation'
+import Contact from './Contact'
 
 export default {
   name: 'home',
   components: {
-    Presentation
+    Presentation,
+    Contact
   }
 }
 </script>
