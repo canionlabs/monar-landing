@@ -222,6 +222,7 @@ input:-webkit-autofill {
     height: 100%;
     padding-left: 2%;
     padding-right: 2%;
+    max-height: inherit;
   }
   .section-title {
     font-size: 32px;
