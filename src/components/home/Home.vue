@@ -200,6 +200,18 @@ export default {
   width: 100%;
 }
 
+input {
+  background: white;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: inset 0 0 0px 9999px white;
+  font-size: 12px !important;
+  margin-bottom: 4px;
+  margin-top: 4px;
+  margin-right: 4px;
+}
+
 
 @media only screen and (max-width: 768px) {
   /* General
