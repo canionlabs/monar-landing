@@ -17,7 +17,7 @@
       <div class="footer-row">
         <a href="#" class="footer-item">INÍCIO</a>
         <a href="#how-works" class="footer-item">COMO FUNCIONAMOS</a>
-        <a href="#" class="footer-item">CONTATO</a>
+        <a href="#contact" class="footer-item">CONTATO</a>
       </div>
       <div class="footer-row">
         ©2018. Todos os direitos reservados.&nbsp;<a href="http://canionlabs.io" target="_blank">CanionLabs </a>

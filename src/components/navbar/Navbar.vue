@@ -7,7 +7,7 @@
         <div class="md-toolbar-section-end md-layout">
           <a href="#" class="md-primary toolbar-item md-small-hide">INÍCIO</a>
           <a href="#how-works" class="md-primary toolbar-item md-small-hide">COMO FUNCIONAMOS</a>
-          <a href="#" class="md-primary toolbar-item md-small-hide">CONTATO</a>
+          <a href="#contact" class="md-primary toolbar-item md-small-hide">CONTATO</a>
         </div>
       </md-toolbar>
   </div>
