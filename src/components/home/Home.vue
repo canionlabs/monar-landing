@@ -83,6 +83,7 @@ export default {
 .section {
   padding-top: 80px;
   height: 100vh;
+  max-height: 750px;
   padding-left: 7%;
   padding-right: 7%;
 }
