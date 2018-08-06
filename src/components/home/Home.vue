@@ -77,7 +77,7 @@ export default {
 }
 
 .small-pad {
-  padding-top: 40px !important;
+  padding-top: 25px !important;
 }
 
 .section {
@@ -129,7 +129,7 @@ export default {
   font-size: 24px;
   font-family: 'Titillium Web', sans-serif;
   letter-spacing: 0px;
-  line-height: 36px;
+  line-height: 26px;
   /*color: rgba(0,0,0,0.80); */
 }
 
@@ -163,7 +163,7 @@ export default {
 }
 
 .form-box {
-  padding-top: 5px;
+  padding-top:2px;
   padding-left: 20%;
   padding-right: 20%;
 }
@@ -171,7 +171,7 @@ export default {
 .md-field {
   background: rgba(0,0,0,0.08);
   padding-left: 20px;
-  margin-top: 24px;
+  margin-top: 22px;
 }
 
 .md-field label {
