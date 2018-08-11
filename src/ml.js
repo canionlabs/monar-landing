@@ -2,7 +2,7 @@
 * @Author: caiovictormc
 * @Date:   2018-08-11 07:52:53
 * @Last Modified by:   caiovictormc
-* @Last Modified time: 2018-08-11 20:04:32
+* @Last Modified time: 2018-08-11 20:35:31
 */
 
 import Vue from 'vue'
@@ -56,7 +56,7 @@ export default new MLCreate({
       monitoringText: 'Sensores capturam temperatura, umidade e ausência de energia elétrica e enviam para a nossa nuvem.',
       connectivityTitle: 'Conectividade',
       connectivityText: 'Garantir consistência e entrega dos dados, além de redundância 3G.',
-      platformTitle: 'Platforma',
+      platformTitle: 'Plataforma',
       platformText: 'Acompanhe remotamente todas as suas unidades em um único local e receba relatórios e alertas.',
       setupTitle: 'Instalação simples e descomplicada',
       setupText: 'Não é necessário realizar reformas ou modificaçōes nos equipamentos.',
