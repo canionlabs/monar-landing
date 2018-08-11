@@ -15,12 +15,12 @@
         </a>
       </div>
       <div class="footer-row">
-        <a href="#" class="footer-item">INÍCIO</a>
-        <a href="#how-works" class="footer-item">COMO FUNCIONAMOS</a>
-        <a href="#contact" class="footer-item">CONTATO</a>
+        <a href="#" class="footer-item" v-text="$ml.with('VueJS').get('menuHome')"></a>
+        <a href="#how-works" class="footer-item" v-text="$ml.with('VueJS').get('menuWork')"></a>
+        <a href="#contact" class="footer-item" v-text="$ml.with('VueJS').get('menuContact')"></a>
       </div>
       <div class="footer-row">
-        ©2018. Todos os direitos reservados.&nbsp;<a href="http://canionlabs.io" target="_blank">CanionLabs </a>
+        ©MONAR, &nbsp;<a href="http://canionlabs.io" target="_blank">CanionLabs </a>
       </div>
     </div>
   </div>

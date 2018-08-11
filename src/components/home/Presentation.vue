@@ -1,8 +1,8 @@
 <template>
   <div class="presentation">
     <div class="detail-box">
-      <h1 class="big-detail">Evite perdas e reduza custos</h1>
-      <h3 class="little-detail">Plataforma de monitoramento de temperatura, umidade e energia elétrica.</h3>
+      <h1 class="big-detail" v-text="$ml.with('VueJS').get('presentationTitle')"></h1>
+      <h3 class="little-detail" v-text="$ml.with('VueJS').get('presentationDescription')"></h3>
     </div>
   </div>
 </template>

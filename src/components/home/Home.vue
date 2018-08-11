@@ -2,49 +2,37 @@
   <div>
     <presentation></presentation>
     <div class="section large-section" id="how-works">
-      <h1 class="section-title">Como funcionamos</h1>
-      <p class="big-description">
-        A proposta do MONAR é reduzir perdas, aumentar vida útil e melhorar qualidade de produtos sensíveis a temperatura através de um sistema de monitoramento baseado em IoT diminuindo custos e simplificando logística.
-      </p>
+      <h1 class="section-title" v-text="$ml.with('VueJS').get('howTitle')"></h1>
+      <p class="big-description" v-text="$ml.with('VueJS').get('howDescription')"></p>
       <div class="info-row md-layout md-gutter md-alignment-top">
         <div class="info-card md-layout-item md-medium-size-33 md-small-size-100">
           <img class="info-icon" src="@/assets/icons/beacon.svg">
-          <h2 class="info-title">Módulo de Monitoramento</h2>
-          <span class="info-text">
-            Sensores capturam temperatura, umidade e ausência de energia elétrica e enviam para a nossa nuvem.
-          </span>
+          <h2 class="info-title" v-text="$ml.with('VueJS').get('monitoringTitle')"></h2>
+          <span class="info-text" v-text="$ml.with('VueJS').get('monitoringText')"></span>
         </div>
         <div class="info-card md-layout-item md-medium-size-33 md-small-size-100">
           <img class="info-icon" src="@/assets/icons/gateway.svg">
-          <h2 class="info-title">Conectividade</h2>
-          <span class="info-text">
-            Garantir consistência e entrega dos dados, além de redundância 3G.
-          </span>
+          <h2 class="info-title" v-text="$ml.with('VueJS').get('connectivityTitle')"></h2>
+          <span class="info-text" v-text="$ml.with('VueJS').get('connectivityText')"></span>
         </div>
         <div class="info-card md-layout-item md-medium-size-33 md-small-size-100">
           <img class="info-icon" src="@/assets/icons/dashboard.svg">
-          <h2 class="info-title">Plataforma</h2>
-          <span class="info-text">
-            Acompanhe remotamente todas as suas unidades em um único local e receba relatórios e alertas.
-          </span>
+          <h2 class="info-title" v-text="$ml.with('VueJS').get('platformTitle')"></h2>
+          <span class="info-text" v-text="$ml.with('VueJS').get('platformText')"></span>
         </div>
       </div>
     </div>
     <div class="section small-pad large-section" id="infographic">
-      <h1 class="section-title">Instalação simples e descomplicada</h1>
-      <p class="little-description">
-        Não é necessário realizar reformas ou modificaçōes nos equipamentos.
-      </p>
+      <h1 class="section-title" v-text="$ml.with('VueJS').get('setupTitle')"></h1>
+      <p class="little-description" v-text="$ml.with('VueJS').get('setupText')"></p>
     </div>
     <div class="section large-section" id="extra-info">
-      <h1 class="section-title">Informado em qualquer lugar</h1>
-      <p class="little-description">
-        Usando a nossa plataforma web você acompanha a temperatura e a energia de todos os seus estabelecimentos em tempo real e ainda recebe alertas sobre variaçōes térmicas.
-      </p>
+      <h1 class="section-title" v-text="$ml.with('VueJS').get('notificationTitle')"></h1>
+      <p class="little-description" v-text="$ml.with('VueJS').get('notificationText')"></p>
       <img class="screens md-xsmall-hide" src="@/assets/screen.png">
     </div>
     <div class="fit-section" id="seed-accelerators">
-      <h1 class="section-title">Aceleradoras</h1>
+      <h1 class="section-title" v-text="$ml.with('VueJS').get('seedTitle')"></h1>
       <div class="img-row">
         <img class="screens seed-img" src="@/assets/fapepi.png">
         <img class="screens seed-img" id="sebrae-logo" src="@/assets/sebrae.png">

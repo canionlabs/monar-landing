@@ -5,9 +5,22 @@
           <img class="toolbar-logo" src="@/assets/logo/white.svg">
         </div>
         <div class="md-toolbar-section-end md-layout">
-          <a href="#" class="md-primary toolbar-item md-small-hide">INÍCIO</a>
-          <a href="#how-works" class="md-primary toolbar-item md-small-hide">COMO FUNCIONAMOS</a>
-          <a href="#contact" class="md-primary toolbar-item md-small-hide">CONTATO</a>
+          <a 
+            href="#" class="md-primary toolbar-item md-small-hide"
+            v-text="$ml.with('VueJS').get('menuHome')">
+          </a>
+          <a 
+            href="#how-works" class="md-primary toolbar-item md-small-hide"
+            v-text="$ml.with('VueJS').get('menuWork')">
+          </a>
+          <a 
+            href="#contact" class="md-primary toolbar-item md-small-hide"
+            v-text="$ml.with('VueJS').get('menuContact')">
+          </a>
+          <div class="toolbar-item">  
+            <a href="#" @click="$ml.change('PT')"><span><img class="flag" src="@/assets/flags/brazil.svg"></span></a> 
+            <a href="#" @click="$ml.change('EN')"><span><img class="flag" src="@/assets/flags/eua.svg"></span></a>  
+          </div>
         </div>
       </md-toolbar>
   </div>
