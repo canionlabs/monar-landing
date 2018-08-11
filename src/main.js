@@ -4,6 +4,7 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import VueMaterial from 'vue-material'
+import './ml' // Vue Language
 
 import 'vue-material/dist/vue-material.min.css'
 
