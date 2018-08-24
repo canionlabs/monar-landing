@@ -4,13 +4,13 @@
     <router-view></router-view>
     <div class="footer">
       <div class="footer-row">
-        <a href="#" class="footer-item footer-img">
+        <a href="https://www.facebook.com/Monar-2041581739496963" target="_blank" class="footer-item footer-img">
           <img src="@/assets/icons/facebook/white.svg">
         </a>
         <a href="#" class="footer-item footer-img">
           <img src="@/assets/icons/instagram/white.svg">
         </a>
-        <a href="#" class="footer-item footer-img">
+        <a href="https://www.linkedin.com/company/monar-iot/" target="_blank" class="footer-item footer-img">
           <img src="@/assets/icons/linkedin/white.svg">
         </a>
       </div>
