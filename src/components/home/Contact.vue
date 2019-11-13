@@ -35,7 +35,7 @@
               <input type="hidden" name="_language" value="pt-BR" />
             </md-field>
             <div>
-              <md-button type="submit" class="form-button" value="Send" v-text="$ml.with('VueJS').get('contactButton')">
+              <md-button type="submit" class="form-button button-align" value="Send" v-text="$ml.with('VueJS').get('contactButton')">
               </md-button>
             </div>
           </form>
@@ -51,5 +51,8 @@ export default {
 }
 </script>
 
-<style lang='scss'>
+<style lang='css'>
+.button-align{
+  margin-left:0px;
+}
 </style>
