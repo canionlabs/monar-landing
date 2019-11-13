@@ -19,8 +19,15 @@
         <a href="#how-works" class="footer-item" v-text="$ml.with('VueJS').get('menuWork')"></a>
         <a href="#contact" class="footer-item" v-text="$ml.with('VueJS').get('menuContact')"></a>
       </div>
-      <div class="footer-row">
-        ©MONAR, &nbsp;<a href="http://canionlabs.io" target="_blank">CanionLabs </a>
+      <div class="bg-footer">
+        <div class="img-footer">
+          <a href="http://canionlabs.io" target="_blank">
+            <img src="@/assets/logo_canion.svg">
+          </a>
+        </div>
+        <div>
+          ©MONAR, &nbsp;<a href="http://canionlabs.io" target="_blank">CanionLabs</a>
+        </div>
       </div>
     </div>
   </div>
@@ -38,6 +45,20 @@ export default {
 </script>
 
 <style lang='css'>
+.bg-footer{
+  margin-top:40px;
+  background: rgba(0,0,0,0.2);
+  padding-top:20px;
+  padding-bottom:20px;
+  position: relative;
+}
+.img-footer{
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom: 12px;
+  width: 80px;
+}
 .footer-row {
   margin-bottom: 20px;
   margin-top: 20px;
@@ -55,7 +76,6 @@ export default {
   color: #FFFFFF;
   padding-top:25px;
   bottom: 0;
-  padding-bottom: 8px;
   width: 100%;
   justify-content: center;
   align-items: center;
