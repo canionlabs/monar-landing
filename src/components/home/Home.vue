@@ -24,12 +24,13 @@
     </div>
     <div class="section small-pad large-section" id="infographic">
       <h1 class="section-title" v-text="$ml.with('VueJS').get('setupTitle')"></h1>
-      <p class="little-description" v-text="$ml.with('VueJS').get('setupText')"></p>
+      <p class="little-description test" v-text="$ml.with('VueJS').get('setupText')"></p>
+      <img class="screens md-xsmall" src="@/assets/art.png">
     </div>
     <div class="section large-section" id="extra-info">
       <h1 class="section-title" v-text="$ml.with('VueJS').get('notificationTitle')"></h1>
       <p class="little-description" v-text="$ml.with('VueJS').get('notificationText')"></p>
-      <img class="screens md-xsmall-hide" src="@/assets/screen.png">
+      <img class="screens md-xsmall" src="@/assets/screen.png">
     </div>
     <div class="fit-section" id="seed-accelerators">
       <h1 class="section-title" v-text="$ml.with('VueJS').get('seedTitle')"></h1>
@@ -60,8 +61,8 @@ export default {
   padding-top: 20px;
 }
 
-#infographic {
-  background: url("../../assets/art.png") center 80% no-repeat;
+#extra-info{
+  margin-top: 100px;
 }
 
 .small-pad {
@@ -77,7 +78,7 @@ export default {
 }
 
 .fit-section {
-  padding-top: 40px;
+  padding-top: 20px;
   margin-bottom: 80px;
   height: 100%;
   padding-left: 7%;
@@ -203,6 +204,14 @@ input:-webkit-autofill {
 
 
 @media only screen and (max-width: 768px) {
+
+  #infographic{
+    margin-top: 50px;
+  }
+
+  #extra-info{
+    margin-top: 50px;
+  }
   /* General
   ------------ */
   .section {
@@ -224,14 +233,18 @@ input:-webkit-autofill {
 
   /* How-it-works
   ------------ */
+  .info-row{
+    margin-top: 30px;
+  }
   .info-card {
     margin-top: 20px;
+    text-align:center;
   }
-  #infographic {
-    background: none;
+  #how-works{
+    margin-top: 40px;
   }
 
-  /* Contact 
+  /* Contact
   ------------ */
   .background-monar {
     width: 190px;
