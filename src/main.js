@@ -7,6 +7,9 @@ import VueMaterial from 'vue-material'
 import './ml' // Vue Language
 
 import 'vue-material/dist/vue-material.min.css'
+import MenuIcon from 'vue-material-design-icons/Menu.vue';
+
+Vue.component('menu-icon', MenuIcon);
 
 Vue.use(VueMaterial)
 
