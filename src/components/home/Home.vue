@@ -202,9 +202,79 @@ input:-webkit-autofill {
   margin-right: 4px;
 }
 
-
 @media only screen and (max-width: 768px) {
 
+  #infographic{
+    margin-top: 50px;
+  }
+
+  #extra-info{
+    margin-top: 50px;
+  }
+  /* General
+  ------------ */
+  .section {
+    padding-top: 4px !important;
+    height: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+    max-height: inherit;
+  }
+  .section-title {
+    font-size: 32px;
+    line-height: 32px;
+  }
+
+  .big-description {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  /* How-it-works
+  ------------ */
+  .info-row{
+    margin-top: 30px;
+  }
+  .info-card {
+    margin-top: 20px;
+    text-align:center;
+  }
+  #how-works{
+    margin-top: 40px;
+  }
+
+  /* Contact
+  ------------ */
+  .background-monar {
+    width: 190px;
+    left: 50px;
+    bottom: 490px;
+  }
+  .form-box {
+    padding-top: 0px;
+    padding-left: 0%;
+    padding-right: 0%;
+
+    .form-button {
+      text-transform: uppercase !important;
+      background-color: #FFFFFF !important;
+      color: #F0166D;
+      font-size: 24px !important;
+      font-weight: 500 !important;
+      width: 90%;
+      margin-left: 0;
+    }
+  }
+  .md-field label {
+    font-size: 18px !important;
+  }
+  .info-text {
+    font-size: 18px;
+    line-height: 21px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 960px){
   #infographic{
     margin-top: 50px;
   }

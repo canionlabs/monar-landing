@@ -140,4 +140,13 @@ export default {
   }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 961px){
+  .display-links{
+    display:none;
+  }
+  .display-mobile{
+    display:block;
+  }
+}
+
 </style>
