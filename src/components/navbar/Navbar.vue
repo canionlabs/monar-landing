@@ -25,7 +25,7 @@
           </div>
         </div>
 
-        <div class="display-mobile">
+        <div class="display-mobile md-toolbar-section-end">
           <md-menu md-size="auto" md-offset-5 md-direction="bottom-end" md-close-on-select>
             <md-button class="md-icon-button" md-menu-trigger>
               <menu-icon id="menu-iten"></menu-icon>
@@ -132,8 +132,12 @@ export default {
   .display-mobile{
     display:block;
   }
+  .md-menu{
+    float: right;
+  }
   .md-toolbar {
     padding-left: 25px;
+    padding-right: 25px;
   }
   .toolbar-logo {
     width: 150px;
@@ -146,6 +150,14 @@ export default {
   }
   .display-mobile{
     display:block;
+    float: right;
+  }
+  .md-menu{
+    float: right;
+  }
+  .md-toolbar {
+    padding-left: 25px;
+    padding-right: 25px;
   }
 }
 

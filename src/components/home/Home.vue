@@ -39,6 +39,35 @@
         <img class="screens seed-img" id="sebrae-logo" src="@/assets/sebrae.png">
       </div>
     </div>
+    <div class="section-fag">
+      <h1 class="section-title">PERGUNTAS FREQUENTES</h1>
+      <div class="md-layout md-gutter md-alignment-center">
+        <div class="md-layout-item md-medium-size-33 md-small-size-50 md-xsmall-size-100">
+          <md-card class="items-fag">
+            <md-card-header>
+              <div class="md-title"><strong>Can I cancel my subscription?</strong></div>
+            </md-card-header>
+
+            <md-card-content>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio itaque ea, nostrum odio.
+            </md-card-content>
+
+          </md-card>
+        </div>
+        <div class="md-layout-item md-medium-size-33 md-small-size-50 md-xsmall-size-100">
+          <md-card class="items-fag">
+            <md-card-header>
+              <div class="md-title">Can I cancel my subscription?</div>
+            </md-card-header>
+
+            <md-card-content>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio itaque ea, nostrum odio.
+            </md-card-content>
+
+          </md-card>
+        </div>
+      </div>
+    </div>
     <contact></contact>
   </div>
 </template>
@@ -57,6 +86,13 @@ export default {
 </script>
 
 <style lang='scss'>
+.items-fag{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.items-fag:hover{
+  box-shadow: 1px 1px 7px 1px #A4A4A4;
+}
 .screens {
   padding-top: 20px;
 }
@@ -79,6 +115,14 @@ export default {
 
 .fit-section {
   padding-top: 20px;
+  margin-bottom: 80px;
+  height: 100%;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+.section-fag{
+  padding-top: 40px;
   margin-bottom: 80px;
   height: 100%;
   padding-left: 7%;
