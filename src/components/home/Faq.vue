@@ -2,17 +2,21 @@
     <div class="section-faq">
       <h1 class="section-title">PERGUNTAS FREQUENTES</h1>
       
-      <div class="md-layout md-gutter">
-        <div class="md-layout-item">
-          <button class="collapsible">Como serei alertado sobre algum problema ?</button>
+      <div class="md-layout md-gutter md-alignment-center">
+        <div class="md-layout-item md-medium-size-33 md-small-size-50 md-xsmall-size-100">
+          <button class="collapsible">
+            <span style="padding: inherit">Como serei alertado sobre algum problema ?</span>
+          </button>
           
           <div class="content">
             <p>Os alertas emitidos pelo MONAR podem ser enviados por diversas modalidades: alerta no celular, SMS, email e WhatsApp.</p>
           </div>
         </div>
         
-        <div class="md-layout-item">
-          <button class="collapsible">Quais alertas irei receber ao utilizar o MONAR?</button>
+        <div class="md-layout-item md-medium-size-33 md-small-size-50 md-xsmall-size-100">
+          <button class="collapsible">
+            <span style="padding: inherit">Quais alertas irei receber ao utilizar o MONAR?</span>
+          </button>
           
           <div class="content">
             <p>Monitoramos a temperatura e a presença de energia elétrica no local onde o MONAR está instalado, portanto você receberá alertas se a temperatura fugir da faixa configurada, além de notificações caso haja uma falta de energia no lugar.</p>
@@ -20,17 +24,21 @@
         </div>
       </div>
 
-      <div class="md-layout md-gutter">
-        <div class="md-layout-item">
-          <button class="collapsible">O sistema funciona mesmo sem energia ?</button>
+      <div class="md-layout md-gutter md-alignment-center">
+        <div class="md-layout-item md-medium-size-33 md-small-size-50 md-xsmall-size-100">
+          <button class="collapsible">
+            <span style="padding: inherit">O sistema funciona mesmo sem energia ?</span>
+          </button>
           
           <div class="content">
             <p>Sim. O MONAR é equipado com uma bateria de alta capacidade capaz de manter o sistema ligado e capturando informações por até 3 dias seguidos. Isso garante maior comodidade para o cliente mediante as oscilações de energia.</p>
           </div>
         </div>
 
-        <div class="md-layout-item">
-          <button class="collapsible">Quais o intervalo de temperatura que a solução consegue monitorar?</button>
+        <div class="md-layout-item md-medium-size-33 md-small-size-50 md-xsmall-size-100">
+          <button class="collapsible">
+            <span style="padding: inherit">Quais os intervalos de temperatura que a solução consegue monitorar?</span>
+          </button>
           
           <div class="content">
             <p>O MONAR é capaz de monitorar cargas frias com temperaturas com faixas de -55º C até 125º C em tempo real.</p>
@@ -38,22 +46,22 @@
         </div>
       </div>
 
-      <div class="md-layout md-gutter">
-        <div class="md-layout-item">
+      <div class="md-layout md-gutter md-alignment-center">
+        <div class="md-layout-item md-medium-size-33 md-small-size-50 md-xsmall-size-100">
           <button class="collapsible">
-            O que eu posso monitorar?
+            <span style="padding: inherit">O que eu posso monitorar?</span>
           </button>
           
           <div class="content">
             <p>
-              Com o MONAR você é capaz de monitorar vários tipos artigos refrigerados como: vacinas, bolsas sangue, compostos químicos em geral, reagentes, plasma, dentre outros.
+              Com o MONAR você é capaz de monitorar vários tipos ativos refrigerados como: vacinas, bolsas sangue, compostos químicos em geral, reagentes, plasma, dentre outros.
             </p>
           </div>
         </div>
 
-        <div class="md-layout-item">
+        <div class="md-layout-item md-medium-size-33 md-small-size-50 md-xsmall-size-100">
           <button class="collapsible">
-            Como posso acompanhar a temperatura da minha carga fria ?
+            <span style="padding: inherit">Como posso acompanhar a temperatura da minha carga fria ?</span>
           </button>
           
           <div class="content">
@@ -64,10 +72,10 @@
         </div>
       </div>
 
-      <div class="md-layout md-gutter">
-        <div class="md-layout-item">
+      <div class="md-layout md-gutter md-alignment-center">
+        <div class="md-layout-item md-medium-size-33 md-small-size-50 md-xsmall-size-100">
           <button class="collapsible">
-            Qual o valor do MONAR?
+            <span style="padding: inherit">Qual o valor do MONAR?</span>
           </button>
           
           <div class="content">
@@ -77,9 +85,9 @@
           </div>
         </div>
 
-        <div class="md-layout-item">
+        <div class="md-layout-item md-medium-size-33 md-small-size-50 md-xsmall-size-100">
           <button class="collapsible">
-            Ainda vou precisar usar planilhas manuais ?
+            <span style="padding: inherit">Ainda vou precisar usar planilhas manuais ?</span>
           </button>
           
           <div class="content">
@@ -90,10 +98,10 @@
         </div>
       </div>
       
-      <div class="md-layout md-gutter">
-        <div class="md-layout-item">
+      <div class="md-layout md-gutter md-alignment-center">
+        <div class="md-layout-item md-medium-size-33 md-small-size-50 md-xsmall-size-100">
           <button class="collapsible">
-            Tenho muitas pessoas responsáveis pela minha carga fria, é possível ter acesso com vários usuários?
+            <span style="padding: inherit">Tenho muitas pessoas responsáveis pela minha carga fria, é possível ter acesso com vários usuários?</span>
           </button>
           
           <div class="content">
@@ -103,8 +111,10 @@
           </div>
         </div>
 
-        <div class="md-layout-item">
-          <button class="collapsible">É possível definir uma temperatura específica para monitoramento em cada geladeira ?</button>
+        <div class="md-layout-item md-medium-size-33 md-small-size-50 md-xsmall-size-100">
+          <button class="collapsible">
+            <span style="padding: inherit">É possível definir uma temperatura específica para monitoramento em cada geladeira ?</span>
+          </button>
           
           <div class="content">
             <p>
@@ -113,7 +123,6 @@
           </div>
         </div>
       </div>
-
     </div>
 </template>
 
@@ -157,29 +166,33 @@ $list-width: 100%;
   line-height: 51px;
 }
 .collapsible {
+  border: 1px solid transparent;
   border-radius: 4px;
-  background-color: rgb(209, 209, 209);
+  border-color:#E6E6E6;
+  background-color: #f2f2f2;
   color: rgb(75, 75, 75);
   cursor: pointer;
   padding: 18px;
   margin-top: 10px;
   width: 100%;
-  border: none;
   text-align: center;
   outline: none;
   font-size: 15px;
 }
 
 .active, .collapsible:hover {
-  background-color: rgb(168, 168, 168);
+  background-color: #E0E0E0;
 }
 
 .collapsible:after {
   content: '\002B';
-  color: rgb(46, 46, 46);
+  color: white;
+  background-image: linear-gradient(90deg, #E55133 0%, #DF2B61 34%, rgba(151,20,127,0.88) 70%, rgba(175,24,129,0.72) 100%);
+  border-radius: 4px;
   font-weight: bold;
   float: left;
   margin-left: 5px;
+  padding: 0 3px 0 3px;
 }
 
 .active:after {
