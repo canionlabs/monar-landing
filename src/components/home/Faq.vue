@@ -5,7 +5,7 @@
       <div class="md-layout md-gutter md-alignment-center">
         <div class="md-layout-item md-medium-size-33 md-small-size-50 md-xsmall-size-100">
           <button class="collapsible">
-            <span style="padding: inherit">Como serei alertado sobre algum problema ?</span>
+            <span class="span-text">Como serei alertado sobre algum problema ?</span>
           </button>
           
           <div class="content">
@@ -15,7 +15,7 @@
         
         <div class="md-layout-item md-medium-size-33 md-small-size-50 md-xsmall-size-100">
           <button class="collapsible">
-            <span style="padding: inherit">Quais alertas irei receber ao utilizar o MONAR?</span>
+            <span class="span-text">Quais alertas irei receber ao utilizar o MONAR?</span>
           </button>
           
           <div class="content">
@@ -27,7 +27,7 @@
       <div class="md-layout md-gutter md-alignment-center">
         <div class="md-layout-item md-medium-size-33 md-small-size-50 md-xsmall-size-100">
           <button class="collapsible">
-            <span style="padding: inherit">O sistema funciona mesmo sem energia ?</span>
+            <span class="span-text">O sistema funciona mesmo sem energia ?</span>
           </button>
           
           <div class="content">
@@ -37,7 +37,7 @@
 
         <div class="md-layout-item md-medium-size-33 md-small-size-50 md-xsmall-size-100">
           <button class="collapsible">
-            <span style="padding: inherit">Quais os intervalos de temperatura que a solução consegue monitorar?</span>
+            <span class="span-text">Quais os intervalos de temperatura que a solução consegue monitorar?</span>
           </button>
           
           <div class="content">
@@ -49,7 +49,7 @@
       <div class="md-layout md-gutter md-alignment-center">
         <div class="md-layout-item md-medium-size-33 md-small-size-50 md-xsmall-size-100">
           <button class="collapsible">
-            <span style="padding: inherit">O que eu posso monitorar?</span>
+            <span class="span-text">O que eu posso monitorar?</span>
           </button>
           
           <div class="content">
@@ -61,7 +61,7 @@
 
         <div class="md-layout-item md-medium-size-33 md-small-size-50 md-xsmall-size-100">
           <button class="collapsible">
-            <span style="padding: inherit">Como posso acompanhar a temperatura da minha carga fria ?</span>
+            <span class="span-text">Como posso acompanhar a temperatura da minha carga fria ?</span>
           </button>
           
           <div class="content">
@@ -75,7 +75,7 @@
       <div class="md-layout md-gutter md-alignment-center">
         <div class="md-layout-item md-medium-size-33 md-small-size-50 md-xsmall-size-100">
           <button class="collapsible">
-            <span style="padding: inherit">Qual o valor do MONAR?</span>
+            <span class="span-text">Qual o valor do MONAR?</span>
           </button>
           
           <div class="content">
@@ -87,7 +87,7 @@
 
         <div class="md-layout-item md-medium-size-33 md-small-size-50 md-xsmall-size-100">
           <button class="collapsible">
-            <span style="padding: inherit">Ainda vou precisar usar planilhas manuais ?</span>
+            <span class="span-text">Ainda vou precisar usar planilhas manuais ?</span>
           </button>
           
           <div class="content">
@@ -101,7 +101,7 @@
       <div class="md-layout md-gutter md-alignment-center">
         <div class="md-layout-item md-medium-size-33 md-small-size-50 md-xsmall-size-100">
           <button class="collapsible">
-            <span style="padding: inherit">Tenho muitas pessoas responsáveis pela minha carga fria, é possível ter acesso com vários usuários?</span>
+            <span class="span-text">Tenho muitas pessoas responsáveis pela minha carga fria, é possível ter acesso com vários usuários?</span>
           </button>
           
           <div class="content">
@@ -113,7 +113,7 @@
 
         <div class="md-layout-item md-medium-size-33 md-small-size-50 md-xsmall-size-100">
           <button class="collapsible">
-            <span style="padding: inherit">É possível definir uma temperatura específica para monitoramento em cada geladeira ?</span>
+            <span class="span-text">É possível definir uma temperatura específica para monitoramento em cada geladeira ?</span>
           </button>
           
           <div class="content">
@@ -186,13 +186,15 @@ $list-width: 100%;
 
 .collapsible:after {
   content: '\002B';
+  text-align: center;
   color: white;
   background-image: linear-gradient(90deg, #E55133 0%, #DF2B61 34%, rgba(151,20,127,0.88) 70%, rgba(175,24,129,0.72) 100%);
   border-radius: 4px;
   font-weight: bold;
   float: left;
-  margin-left: 5px;
-  padding: 0 3px 0 3px;
+  margin-left: 1px;
+  padding-left: 3px;
+  padding-right: 3px;
 }
 
 .active:after {
@@ -205,6 +207,9 @@ $list-width: 100%;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   background-color: #f1f1f1;
+}
+.span-text{
+  padding-left: 8%; 
 }
 
 </style>
