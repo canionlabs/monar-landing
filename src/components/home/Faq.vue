@@ -175,7 +175,7 @@ $list-width: 100%;
   padding: 18px;
   margin-top: 10px;
   width: 100%;
-  text-align: center;
+  text-align: left;
   outline: none;
   font-size: 15px;
 }
@@ -184,20 +184,19 @@ $list-width: 100%;
   background-color: #E0E0E0;
 }
 
-.collapsible:after {
+.collapsible:before {
   content: '\002B';
   text-align: center;
   color: white;
   background-image: linear-gradient(90deg, #E55133 0%, #DF2B61 34%, rgba(151,20,127,0.88) 70%, rgba(175,24,129,0.72) 100%);
   border-radius: 4px;
   font-weight: bold;
-  float: left;
   margin-left: 1px;
   padding-left: 3px;
   padding-right: 3px;
 }
 
-.active:after {
+.active:before {
   content: "\2212";
 }
 
@@ -209,7 +208,7 @@ $list-width: 100%;
   background-color: #f1f1f1;
 }
 .span-text{
-  padding-left: 8%; 
+  padding-left: 3%;
 }
 
 </style>
