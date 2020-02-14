@@ -187,13 +187,10 @@ $list-width: 100%;
 .collapsible:before {
   content: '\002B';
   text-align: center;
-  color: white;
-  background-image: linear-gradient(90deg, #E55133 0%, #DF2B61 34%, rgba(151,20,127,0.88) 70%, rgba(175,24,129,0.72) 100%);
+  color: red;
   border-radius: 4px;
   font-weight: bold;
   margin-left: 1px;
-  padding-left: 3px;
-  padding-right: 3px;
 }
 
 .active:before {
@@ -208,7 +205,7 @@ $list-width: 100%;
   background-color: #f1f1f1;
 }
 .span-text{
-  padding-left: 3%;
+  padding-left: 2%;
 }
 
 </style>
