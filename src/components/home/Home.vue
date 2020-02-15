@@ -39,6 +39,7 @@
         <img class="screens seed-img" id="sebrae-logo" src="@/assets/sebrae.png">
       </div>
     </div>
+    <faq></faq>
     <contact></contact>
   </div>
 </template>
@@ -46,13 +47,15 @@
 <script>
 import Presentation from './Presentation'
 import Contact from './Contact'
+import Faq from './Faq'
 
 export default {
   name: 'home',
   components: {
     Presentation,
-    Contact
-  }
+    Contact,
+    Faq
+  },
 }
 </script>
 
